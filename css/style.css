@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Rokkitt');
+
+
+body {
+    /* font-family: 'Rokkitt', serif!important; <--- ¿Es necesario? no lo encontré en archivo .ai*/ 
+  font-family: 'Rokkitt', serif!important;
+font-family: 'Questrial', sans-serif!important;
+    
+}
+
+
+/*** Global ***/
+.btn-middle {
+
+    position: relative;
+    top: -20px;
+}
+
+.ml-custom {
+    margin-left: 40px;
+}
+
+.text-red {
+    color: #FE0000;
+}
+
+.btn-danger {
+    background-color: #FE0000 !important;
+    width: 200px;
+    height: 60px;
+    border-radius: 0px !important;
+}
+
+.btn-danger:hover {
+    background-color: #c00303 !important;
+}
+
+.size {
+    font-size: 24px !important;
+}
+
+.size2 {
+    font-size: 20px !important;
+}
+
+ul {
+    list-style: square outside none;
+}
+
+/* /Global */
+
+
+/*** Navbar ***/
+nav .navbar {
+height: 200px;
+background-color: #fff!important;
+
+}
+
+nav .navbar-brand {
+    font-size: 100px!important;
+    letter-spacing: -5px;
+    color: #000;
+}
+
+nav p {
+    font-weight:500;
+}
+/* /Navbar */
+
+
+/*** Carousel ***/
+.carousel .header-car {
+     position: absolute;
+     top: 6%;
+     left: 3.8%;
+     right: auto;
+     width: 22%;
+     color: #fff;
+      
+
+}
+
+.carousel .header-car span {
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: 'Rokkitt',
+    sans-serif !important;
+}
+
+.carousel .header-car span.bajada {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    min-height: 500px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 140px !important;
+    height: 140px !important;
+    background-color: #000;
+    color: #000;
+    background: #007bff00 no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 627px !important;
+    position: absolute !important;
+    top: 0px !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/right.png") !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/left.png") !important;
+}
+
+
+
+/*** Footer***/
+footer {
+    background-color: #FE0000;
+    height: 180px;
+    color:#fff;
+    overflow: hidden;
+
+}
+
+footer .text-green {
+    color: lawngreen;
+}
+
+footer .ml-custom  {
+margin-left: 130px;
+}
+
+footer .brand-text {
+    font-size: 160px;
+    letter-spacing: 40px;
+    margin: 0 0px 0 0;
+    padding:0;
+    line-height: normal;
+}
+/* /Footer */
+
